@@ -27,7 +27,7 @@ This repository is the **starter** for your End Semester Project submission in G
 
 ## 📦 Installation & Dependencies
 
-* Mention all the related instructions for installation of related packages for running your code here.
+* numpy, pandas, sklearn.accuracy_score
 
 ---
 
