@@ -18,7 +18,10 @@ This repository is the **starter** for your End Semester Project submission in G
 
 ## 📁 Repository Structure
 
-* Describe your repository structure here. Explain about overall code organization.
+* Algorithms.py contains KNN and XGB algorithms
+* Main.py gives the accuracy score on the validation dataset for the KNN algorithm.
+* Endsem.ipynb is the same thing but in jupyter notebook
+* ML_lab_Endsem_Report.pdf is the report on this project.
 
 ---
 
@@ -34,7 +37,8 @@ All experiments should be runnable from the command line **and** reproducible in
 
 ### A. Command-line (recommended for grading)
 
-* Mention the instructions to run you .py files.
+* Main.py trains the model on the train data and gives the accuracy score after predicting on the validation data. So you have to change the files in the script.
+* Or else, you can import the KNN class from the Algorithms.py file.
   
 ---
 
@@ -44,7 +48,7 @@ All experiments should be runnable from the command line **and** reproducible in
 
 ## 🧾 Authors
 
-**<Name, Roll No.>**, IIT Madras (2025–26)
+Srikar J V, DA24B006, IIT Madras (2025–26)
 
 
 ## Best Practices:
