@@ -195,4 +195,8 @@ class XGBoostClassifier:
     #Predicting the class with highest probability
     def predict(self, X):
         proba = self.predict_proba(X)
+
         return np.argmax(proba, axis=1)
+
+if __name__ == '__main__':
+    main()
