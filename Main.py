@@ -125,4 +125,8 @@ knn.fit(Xtrain,ytrain)
 
 ypred = knn.predict(Xval)
 
+
 print(calculate_scores(yval, ypred))
+
+if __name__ == '__main__':
+    main()
