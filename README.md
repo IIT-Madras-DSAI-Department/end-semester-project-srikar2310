@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/R05VM8Rg)
 # IIT-Madras-DA2401-Machine-Learning-Lab-End-Semester-Project
 
 ## 📌 Purpose of this Template
@@ -5,7 +6,7 @@
 This repository is the **starter** for your End Semester Project submission in GitHub Classroom. You can implement your solution and push your work in this repository. Please free to edit this README.md file as per your requirements.
 
 > **Scope (as per assignment brief):**
-> Give an introduction to your repository here: Eg. This repository contains a complete implementation for ...
+> This repository contains the implementation for KNN multiclass classifier on MNIST Data.
 
 ---
 
@@ -17,13 +18,16 @@ This repository is the **starter** for your End Semester Project submission in G
 
 ## 📁 Repository Structure
 
-* Describe your repository structure here. Explain about overall code organization.
+* Algorithms.py contains KNN and XGB algorithms
+* Main.py gives the accuracy score on the validation dataset for the KNN algorithm.
+* Endsem.ipynb is the same thing but in jupyter notebook
+* ML_lab_Endsem_Report.pdf is the report on this project.
 
 ---
 
 ## 📦 Installation & Dependencies
 
-* Mention all the related instructions for installation of related packages for running your code here.
+* numpy, pandas, sklearn.accuracy_score
 
 ---
 
@@ -33,7 +37,8 @@ All experiments should be runnable from the command line **and** reproducible in
 
 ### A. Command-line (recommended for grading)
 
-* Mention the instructions to run you .py files.
+* Main.py trains the model on the train data and gives the accuracy score after predicting on the validation data. So you have to change the files in the script.
+* Or else, you can import the KNN class from the Algorithms.py file.
   
 ---
 
@@ -43,7 +48,7 @@ All experiments should be runnable from the command line **and** reproducible in
 
 ## 🧾 Authors
 
-**<Name, Roll No.>**, IIT Madras (2025–26)
+Srikar J V, DA24B006, IIT Madras (2025–26)
 
 
 ## Best Practices:
